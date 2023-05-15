@@ -1,0 +1,21 @@
+/*
+FlexBox - tag 'form' (cadastro.css)
+Divisão do conteúdo com Divs - site completo
+Menu navegável - Nav (style.css)
+Padronização de cores - site completo
+Utilização de imagens - logo (nav) e app (index.html)
+*/
+
+.forum {
+    margin-top: 3em;
+}
+
+.tabelaForum {
+    border-top: solid 2px #000;
+    margin: auto;
+    width: 80%;
+}
+.tabelaCampo {
+    padding: 5px;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+/*
+FlexBox - tag 'form' (cadastro.css)
+Divisão do conteúdo com Divs - site completo
+Menu navegável - Nav (style.css)
+Padronização de cores - site completo
+Utilização de imagens - logo (nav) e app (index.html)
+*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#texto label {
+    display: flex;
+    flex-direction: column;
+}
+
+#texto input {
+    width: 20em;
+    height: 3em;
+    padding: 0 0.5em;
+    margin: 0.9em;
+    font-size: 1em;
+    border: 1px solid #040B18;
+    border-radius: 8px;
+}
+
+#texto input:hover {
+    background-color: #eeeeee75;
+}
+
+
+form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 1.5em;
+    border: none;
+    padding: 0.7em;
+    border-radius: 32px;
+    background:#839eeaac;
+    color: #0C61C4;
+    font-size: 1.1em;
+    transition: 0.5s;
+}
+
+form input[type="submit"]:hover {
+    background: #859af7d9;
+
+}
+
+#spanEmail, #spanNome {
+    display: none;
+}
+

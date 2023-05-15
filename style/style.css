@@ -1,0 +1,59 @@
+/*
+FlexBox - tag 'form' (cadastro.css)
+Divisão do conteúdo com Divs - site completo
+Menu navegável - Nav (style.css)
+Padronização de cores e fontes - site completo
+Utilização de imagens - logo (nav) e app (index.html)
+*/
+
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.header {
+    height: 3.5em;
+    justify-content: space-between;
+    background-color: #d7e1fa;
+}
+
+.header nav a {
+    color: #0C61C4;
+    text-decoration: none;
+    background-color: #b8c9f3c3;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.header, .header nav {
+    display:flex;
+    align-items: center;
+    padding: 1.7em;
+    gap: 0.7em;
+}
+
+nav a:hover {
+    background-color: #839eeaac;
+    transition: 0.5s;
+}
+
+.titulo {
+    margin: 2em;
+    text-align: center;
+    font-size: 27px;
+}
+.paragrafo {
+    margin: 0 10%;
+    font-size: larger;
+}
+#appContainer{
+    margin: 0 30%;
+} 
+.app{
+    width: 100%;
+}
