@@ -10,7 +10,6 @@
     <link href="../style/cadastro.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-    
     <header class="header">
         <a href="../index.html"><img src="../images/logo.png" width="60%" draggable="false"></a>
         <nav>
@@ -23,48 +22,34 @@
         </nav>
     </header>
     <main>
-
         <h1 class="titulo">Cadastre-se para receber as novidades</h1>
         <container>
-
             <form id="form">
                 <div> 
-                        
                     <div id="texto">
                         <label for="nome">Nome</label>
                         <input id="nome" type="text" name="nome" placeholder="Insira seu Nome" minlength="3" required>
                         <span id="spanNome">Insira um Nome válido</span>
-
                     </div>
-    
                     <div id="texto">
                         <label for="email">E-mail</label>
                         <input id="email" type="email" name="email" placeholder="Insira seu E-mail"onclick(validarEmail()) required>
                         <span id="spanEmail">Insira um E-mail válido</span>
                     </div>
-
                 </div>
-
                 <div class="checkbox">
-
                     <div>
                         <input id="politicas" type="checkbox" name="politicas" required>
                         <label for="politicas">Confirmo que li e aceito as Políticas de Privacidade da InfoAir</label>
                     </div>
-
                     <div>
                         <input id="notificacao" type="checkbox" name="notificacao" required>
                         <label for="notificacao">Concordo em receber atualizações sobre a InfoAir via E-mail</label>
                     </div>
-
                 </div> 
-                
                 <input type="submit" value="Enviar" id="botao" onclick="validarEmail()">
-
             </form>
-            
         </container>
-
         <script src="../script/cadastro.js"></script>
     </main>
 </body>
